@@ -8,7 +8,7 @@ load_dotenv()
 model = ChatGoogleGenerativeAI(model = "gemini-1.5-flash")
 
 class Person(BaseModel):
-    name : str= Field(description='name of the person')
+    name : str= Field(description='name of the person indian')
     age : int=Field(description='gt 18 and st 80 , this it rhe age of the person')
     city:str = Field(description='name of the city in which the person lives')
 
